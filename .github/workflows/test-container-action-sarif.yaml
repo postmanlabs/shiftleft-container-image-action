@@ -6,6 +6,7 @@ on:
 jobs:
   container_scan_job:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       security-events: write
     steps:
